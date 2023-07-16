@@ -26,7 +26,7 @@ export class Gpt4 extends ChatModel {
         try {
             result = await new Promise((resolve, reject) => {
                 const chatRequest = {
-                    model: 'gpt-3.5-turbo',
+                    model: 'gpt-4',
                     messages: [
                         {
                             role: ChatCompletionRequestMessageRoleEnum.System,
