@@ -1,10 +1,9 @@
 import * as Src from '../src'
-import {key} from './key'
 
 export const invoke = async () => {
     
     await Src.setup({
-        apiKey: key,
+        apiKey: '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',
         workspace: '../workspace',
         resetWorkspace: true,
     });
