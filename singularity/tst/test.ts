@@ -3,7 +3,7 @@ import * as Src from '../src'
 export const invoke = async () => {
     
     await Src.setup({
-        apiKey: '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',
+        apiKey: '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',
 
         workspace: '../workspace',
         resetWorkspace: true,
